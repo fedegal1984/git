@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Productos</title>
+</head>
+<body>
+    <header><h2>Soy el header</h2>        
+    </header>
+    <nav><h2>Soy la barra de navegación</h2>   
+        <ul>
+            <li>
+                <a href="../index.html">HOME</a>
+            </li>
+            <li>
+                <a href="./sucursales.html">SUCURSALES</a>
+            </li>
+            <li>
+                <a href="./productos.html">PRODUCTOS</a>
+            </li>
+        </ul>     
+    </nav>
+    <main>
+            <h1>Soy la página de productos - Formulario</h1>
+            <form action="" method="get" id="miFormulario"> 
+                <label for="name" id="nombre" name="nombre" minlength="3" maxlength="40">Nombre:</label>
+                <input type="text" required>
+                <br>
+                <label for="edad">Edad:</label>
+                <input type="number">
+                <br>
+                <label for="nacimiento">Fecha de Nacimiento:</label>
+                <input type="date" id="nacimiento" name="nacimiento">
+                <br>
+                <label for="password">Contraseña:</label>
+                <input type="password" minlength="8" maxlength="12 required">
+                <br>
+                <label for="email" id="email">Email:</label>
+                <input type="email" placeholder="miemail@gmail.com" required>
+                <br>
+                <label for="genero">Género:</label>
+                <br>
+                <label for="Masculino">Masculino</label>
+                <input type="radio" value="Masculino">
+                <br>
+                <label for="Femenino">Femenino</label>
+                <input type="radio" value="Femenino">
+                <br>
+                <input type="checkbox" name="" id="">
+                <br>
+                <label for="Comentarios">Comentarios:</label>
+                <br>
+                <textarea name="Comentarios" id="Comentarios" cols="50" rows="10"></textarea>
+                <br>
+                <input type="button" value="Enviar Datos">
+                <br>
+                
+                
+                <button type="submit">Soy un botón y envío datos</button>
+            </form>
+    </main>
+
+</body>
+</html>
