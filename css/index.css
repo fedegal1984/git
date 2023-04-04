@@ -1,0 +1,51 @@
+h2{
+    color: red;
+    font-size: 45px;
+    background-color: aquamarine;    
+    text-align: center;
+}
+
+/* selector de clase */
+.soloYo{
+    text-align: right;
+}
+
+#miParrafo{
+    margin-top: 80px;
+}
+
+h1{
+    border-top: solid 5px black;
+    border-right: dashed 8px blueviolet;
+    border-bottom: solid 10px grey;
+    border-left: dotted 12px rgb(105, 105, 51);
+    padding-top: 35px ;
+    padding-left: 45px;
+    padding-right: 50px;
+    padding-bottom: 25px;
+    margin-top: 50px;
+    margin-right: 100px;
+    margin-bottom: 80px;
+    margin-left: 150px;
+}
+
+.centrar{text-align: center;
+}
+
+ul li{
+    list-style-type: none;
+    display: inline-block;
+    margin: 15px;
+    padding: 25px;
+    border: 1px solid black;
+    background-color: rgb(165, 144, 144);
+
+}
+
+a{
+    text-decoration: none;
+}
+
+p{ 
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
